@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "build": "dune build",
-    "bundle": "pnpm webpack --mode development --entry ./_build/default/src/output/src/App.js --output-path docs",
+    "bundle": "pnpm run build && pnpm webpack --mode development --entry ./_build/default/src/output/src/App.js --output-path docs",
     "serve": "vite docs/"
   },
   "keywords": [],
