@@ -1,0 +1,1 @@
+let _ = Js.log "running app.ml";;
